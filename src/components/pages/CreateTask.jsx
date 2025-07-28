@@ -2,8 +2,8 @@ import React from 'react'
 
 const CreateTask = () => {
   return (
-    <div className="flex items-center justify-center">
-      <div className="bg-[#00000030] px-4 py-3 rounded-lg min-h-120 w-220 mt-10 flex items-center justify-center flex-col">
+    <div className="flex items-center justify-center -mt-5">
+      <div className="bg-[#00000030] px-4 py-3 rounded-lg min-h-90 w-[90%] mt-10 flex items-center justify-center flex-col">
         <form className="flex gap-40 items-start justify-between">
           <div>
             <div className="pb-2">
@@ -11,7 +11,7 @@ const CreateTask = () => {
               <input
                 type="text"
                 placeholder="Type here"
-                className="w-80 outline-none border-2 border-[#ffffff50] rounded-lg p-1"
+                className="w-100 outline-none border-2 border-[#ffffff50] rounded-lg p-1"
               />
             </div>
             <div className="pb-2">
@@ -19,7 +19,7 @@ const CreateTask = () => {
               <input
                 type="date"
                 placeholder="Type here"
-                className="w-80 outline-none border-2 border-[#ffffff50] rounded-lg p-1"
+                className="w-100 outline-none border-2 border-[#ffffff50] rounded-lg p-1"
               />
             </div>
             <div className="pb-2">
@@ -27,7 +27,7 @@ const CreateTask = () => {
               <input
                 type="text"
                 placeholder="Type here"
-                className="w-80 outline-none border-2 border-[#ffffff50] rounded-lg p-1"
+                className="w-100 outline-none border-2 border-[#ffffff50] rounded-lg p-1"
               />
             </div>
             <div className="pb-2">
@@ -35,7 +35,7 @@ const CreateTask = () => {
               <input
                 type="text"
                 placeholder="web,design...."
-                className="w-80 outline-none border-2 border-[#ffffff50] rounded-lg p-1"
+                className="w-100 outline-none border-2 border-[#ffffff50] rounded-lg p-1"
               />
             </div>
           </div>
@@ -46,11 +46,11 @@ const CreateTask = () => {
                 type="text"
                 placeholder="Type here"
                 rows="10"
-                cols="30"
+                cols="70"
                 className="resize-none outline-none border-2 border-[#ffffff50] rounded-lg p-2"
               />
             </div>
-            <button className="bg-emerald-300 px-4 py-3 text-black rounded-xl w-64 mt-5 font-bold">
+            <button className="bg-emerald-400 px-4 py-3 text-black rounded-xl w-64 mt-2 font-bold">
               Create Task
             </button>
           </div>
